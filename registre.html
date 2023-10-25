@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre y apellidos</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre de usuario" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" class="form-control" id="contrasena" placeholder="Contraseña" required>
+            </div>
+            <div class="form-group">
+                <label for="tarjeta">Nº de tarjeta</label>
+                <input type="number" class="form-control" id="tarjeta" placeholder="Nº tarjeta" required>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terminosUso" required>
+                <label class="form-check-label" for="terminosUso">
+                    He leído y acepto los <a href="/condicions.html" target="_blank">Términos y Condiciones de Uso</a>
+                </label>
+            </div>
+            <span> ¿Ya tienes cuenta? <a href="/login.html">Loguéate</a> </span>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>
